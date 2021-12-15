@@ -49,21 +49,21 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>
                   @Override
                   public void onClick(View v) {
                       Intent intent = new Intent(context,MainActivity2.class);
-//                       intent.putExtra("id",f1.getUser_id());
-//                       intent.putExtra( "number_of_stems",f1.getNumber_of_stems());
-//                      intent.putExtra("encoding",f1.getEncoding());
-//                      intent.putExtra( "file",f1.getFile());
-//                      intent.putExtra("music_path",f1.getMusic_path());
-//                      intent.putExtra( "voice_path",f1.getVoice_path());
-//                      intent.putExtra("user_id",f1.getUser_id());
-//                      intent.putExtra( "isYoutube",f1.getIsYoutube());
-//                      intent.putExtra("job_key",f1.getJob_key());
-//                      intent.putExtra( "job_status",f1.getJob_status());
-//                      intent.putExtra("android_token",f1.getAndroid_token());
-//                      intent.putExtra( "finished_index",f1.getFinished_index());
-//                      intent.putExtra("present_index",f1.getPresent_index());
-//                      intent.putExtra( "updated_at",f1.getUpdated_at());
-//                      intent.putExtra( "created_at",f1.getCreated_at());
+                       intent.putExtra("id",f1.getUser_id());
+                       intent.putExtra( "number_of_stems",f1.getNumber_of_stems());
+                      intent.putExtra("encoding",f1.getEncoding());
+                      intent.putExtra( "file",f1.getFile());
+                      intent.putExtra("music_path",f1.getMusic_path());
+                      intent.putExtra( "voice_path",f1.getVoice_path());
+                      intent.putExtra("user_id",f1.getUser_id());
+                      intent.putExtra( "isYoutube",f1.getIsYoutube());
+                      intent.putExtra("job_key",f1.getJob_key());
+                      intent.putExtra( "job_status",f1.getJob_status());
+                      intent.putExtra("android_token",f1.getAndroid_token());
+                      intent.putExtra( "finished_index",f1.getFinished_index());
+                      intent.putExtra("present_index",f1.getPresent_index());
+                      intent.putExtra( "updated_at",f1.getUpdated_at());
+                      intent.putExtra( "created_at",f1.getCreated_at());
                       intent.putExtra("data",f1);
                        context.startActivity(intent);
                   }

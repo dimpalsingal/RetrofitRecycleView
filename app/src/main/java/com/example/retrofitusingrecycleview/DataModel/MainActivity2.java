@@ -57,7 +57,7 @@ public class MainActivity2 extends AppCompatActivity {
         textView14.setText(getIntent().getStringExtra("updated_at"));
         textView15.setText(getIntent().getStringExtra("created_at"));
 
-//    Files f1=getIntent().getParcelableExtra("data");
+    Files f1=getIntent().getParcelableExtra("data");
 //    textView1.setText(f1.getId());
 //        textView2.setText(f1.getNumber_of_stems());
 //        textView1.setText(f1.getEncoding());
